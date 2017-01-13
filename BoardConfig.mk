@@ -195,6 +195,7 @@ TARGET_USE_SDCLANG := true
 
 # RIL
 PROTOBUF_SUPPORTED := true
+BOARD_RIL_CLASS := ../../../$(LOCAL_PATH)/ril
 TARGET_RIL_VARIANT := caf
 
 # Recovery
