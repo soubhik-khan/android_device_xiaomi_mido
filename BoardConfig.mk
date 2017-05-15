@@ -37,6 +37,11 @@ TARGET_BOARD_PLATFORM_GPU := qcom-adreno506
 TARGET_BOARD_SUFFIX := _64
 TARGET_USES_64_BIT_BINDER := true
 
+# CAF
+TARGET_QCOM_DISPLAY_VARIANT := caf-msm8937
+TARGET_QCOM_AUDIO_VARIANT := caf-msm8937
+TARGET_QCOM_MEDIA_VARIANT := caf-msm8937
+
 # Kernel
 BOARD_KERNEL_BASE := 0x80000000
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78af000
@@ -118,6 +123,9 @@ BOARD_USES_QCNE := true
 # Crypto
 TARGET_HW_DISK_ENCRYPTION := true
 
+# dex preopt
+WITH_DEXPREOPT := false
+
 # Display
 MAX_EGL_CACHE_KEY_SIZE := 12*1024
 MAX_EGL_CACHE_SIZE := 2048*1024
@@ -179,6 +187,7 @@ BOARD_USES_QC_TIME_SERVICES := true
 TARGET_USE_SDCLANG := true
 
 # RIL
+PROTOBUF_SUPPORTED := true
 TARGET_RIL_VARIANT := caf
 
 # Recovery
@@ -192,6 +201,7 @@ include device/qcom/sepolicy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += $(LOCAL_PATH)/sepolicy
 
 # Wi-Fi
+WIFI_NEEDS_FST_DRIVER := true
 BOARD_HAS_QCOM_WLAN := true
 BOARD_HAS_QCOM_WLAN_SDK := true
 BOARD_HOSTAPD_DRIVER := NL80211

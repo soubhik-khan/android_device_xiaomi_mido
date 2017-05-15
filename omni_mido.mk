@@ -16,10 +16,13 @@
 
 $(call inherit-product, device/xiaomi/mido/full_mido.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common Omni stuff.
+$(call inherit-product, vendor/omni/config/common.mk)
 
-PRODUCT_NAME := lineage_mido
+# Get the prebuilt list of APNs
+$(call inherit-product, vendor/omni/config/gsm.mk)
+
+PRODUCT_NAME := omni_mido
 BOARD_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
