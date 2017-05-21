@@ -14,6 +14,9 @@
 # limitations under the License.
 #
 
+# Get the prebuilt list of APNs
+$(call inherit-product, vendor/omni/config/gsm.mk)
+
 $(call inherit-product, device/xiaomi/mido/full_mido.mk)
 
 # Inherit some common Omni stuff.
