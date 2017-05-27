@@ -102,7 +102,9 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    SnapdragonCamera
+    SnapdragonCamera \
+    camera.msm8953 \
+    libmm-qcamera
 
 # Display
 PRODUCT_PACKAGES += \
