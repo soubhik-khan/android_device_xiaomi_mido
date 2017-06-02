@@ -110,10 +110,7 @@ BOARD_CHARGER_DISABLE_INIT_BLANK := true
 
 # CMHW
 BOARD_USES_CYANOGEN_HARDWARE := true
-BOARD_HARDWARE_CLASS += \
-    hardware/cyanogen/cmhw \
-    device/xiaomi/mido/cmhw
-TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/enable_dt2w"
+BOARD_HARDWARE_CLASS += hardware/cyanogen/cmhw
 
 # CNE / DPM
 BOARD_USES_QCNE := true
