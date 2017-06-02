@@ -131,6 +131,10 @@ PRODUCT_PACKAGES += \
     libjni_livedisplay \
     libtinyxml
 
+# OMNI Charger Images
+PRODUCT_PACKAGES += \
+    omni_charger_res_images
+
 # Ebtables
 PRODUCT_PACKAGES += \
     ebtables \
