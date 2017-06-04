@@ -1,0 +1,86 @@
+[
+  {
+    "remote": "github",
+    "repository": "soubhik-khan/android_hardware_qcom_display-caf-msm8937",
+    "target_path": "hardware/qcom/display-caf-msm8937",
+    "revision": "android-7.1"
+  },
+  {
+    "remote": "github",
+    "repository": "soubhik-khan/android_hardware_qcom_audio-caf-msm8937",
+    "target_path": "hardware/qcom/audio-caf-msm8937",
+    "revision": "android-7.1"
+  },
+  {
+    "remote": "github",
+    "repository": "soubhik-khan/android_hardware_qcom_media-caf-msm8937",
+    "target_path": "hardware/qcom/media-caf-msm8937",
+    "revision": "android-7.1"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_packages_apps_SnapdragonCamera",
+    "target_path": "packages/apps/SnapdragonCamera",
+    "revision": "android-7.1"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "vendor_qcom_opensource_dataservices",
+    "target_path": "vendor/qcom/opensource/dataservices",
+    "revision": "android-7.1"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_external_libnfnetlink",
+    "target_path": "external/libnfnetlink",
+    "revision": "android-7.1"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_external_libnetfilter_conntrack",
+    "target_path": "external/libnetfilter_conntrack",
+    "revision": "android-7.1"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_device_qcom_caf-sepolicy",
+    "target_path": "device/qcom/sepolicy",
+    "revision": "android-7.1"
+  },
+  {
+    "remote": "github",
+    "repository": "soubhik-khan/android_kernel_xiaomi_msm8953",
+    "target_path": "kernel/xiaomi/msm8953",
+    "revision": "android-7.1"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_system_qcom",
+    "target_path": "system/qcom",
+    "revision": "android-7.1"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_external_bson",
+    "target_path": "external/bson",
+    "revision": "android-7.1"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_external_ant-wireless_antradio-library",
+    "target_path": "external/ant-wireless/antradio-library",
+    "revision": "android-7.1"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_external_ant-wireless_ant_native",
+    "target_path": "external/ant-wireless/ant_native",
+    "revision": "android-7.1"
+  },
+  {
+    "remote": "omnirom",
+    "repository": "android_external_ant-wireless_ant_service",
+    "target_path": "external/ant-wireless/ant_service",
+    "revision": "android-7.1"
+  }
+]
