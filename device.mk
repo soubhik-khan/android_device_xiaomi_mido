@@ -225,6 +225,7 @@ PRODUCT_PACKAGES += \
 
 # RIL
 PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full \
     librmnetctl \
     libcnefeatureconfig \
     libxml2
