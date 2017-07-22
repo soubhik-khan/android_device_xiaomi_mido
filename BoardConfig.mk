@@ -122,6 +122,9 @@ BOARD_HARDWARE_CLASS += hardware/cyanogen/cmhw
 # CNE / DPM
 BOARD_USES_QCNE := true
 
+# Cpusets
+ENABLE_CPUSETS := true
+
 # Crypto
 TARGET_HW_DISK_ENCRYPTION := true
 TARGET_CRYPTFS_HW_PATH := $(LOCAL_PATH)/cryptfs_hw
