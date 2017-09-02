@@ -311,6 +311,9 @@
          Doze dreams will run whenever the power manager is in a dozing state. -->
     <string name="config_dozeComponent" translatable="false">com.android.systemui/com.android.systemui.doze.DozeService</string>
 
+    <!-- Doze: should the TYPE_PICK_UP_GESTURE or TYPE_TILT_DETECTOR sensor be used as a pulse signal. -->
+    <bool name="config_dozePulsePickup">true</bool>
+
     <!-- Power Management: Specifies whether to decouple the interactive state of the
          device from the display on/off state.
          When false, setInteractive(..., true) will be called before the display is turned on
