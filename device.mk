@@ -100,6 +100,10 @@ PRODUCT_PACKAGES += \
     libmm-qcamera \
     SnapdragonCamera
 
+# ConfigPanel
+PRODUCT_PACKAGES += \
+    ConfigPanel
+
 # Consumerir
 PRODUCT_PACKAGES += \
     consumerir.msm8953
