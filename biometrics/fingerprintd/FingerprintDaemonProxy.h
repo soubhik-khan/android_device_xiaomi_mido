@@ -51,7 +51,7 @@ class FingerprintDaemonProxy : public BnFingerprintDaemon {
         FingerprintDaemonProxy();
         virtual ~FingerprintDaemonProxy();
         void binderDied(const wp<IBinder>& who);
-        void notifyKeystore(const uint8_t *auth_token, const size_t auth_token_length);
+        //void notifyKeystore(const uint8_t *auth_token, const size_t auth_token_length);
         static void hal_notify_callback(const fingerprint_msg_t *msg);
 
         static FingerprintDaemonProxy* sInstance;
